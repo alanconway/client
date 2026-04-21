@@ -17,7 +17,7 @@ You can list git changes with:
 Edit Makefile and set 'VERSION=X.Y.Z' for the new release.
 Make sure you are logged in to `quay.io/korrel8r` to push images.
 
-  make clean; make pre-release REGISTRY_BASE=quay.io/korrel8r
+  make clean; make pre-release
 
 Use `git status` to verify that all changes are related to the version number change.
 
